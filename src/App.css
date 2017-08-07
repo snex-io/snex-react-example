@@ -1,0 +1,42 @@
+.App {
+  perspective: 400px;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  margin: 2em;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App .players {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.App .connect-url {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.App .player {
+  font-family: monospace;
+  margin: 2em;
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotateX(0deg); }
+  to { transform: rotateX(360deg); }
+}
